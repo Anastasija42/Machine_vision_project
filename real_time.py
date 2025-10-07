@@ -90,6 +90,7 @@ if __name__ == "__main__":
     ARUCO_REAL_SIZE_MM = 35 # Primer! Zamenite sa vašom vrednošću!
 
     cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+    #cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Greška: Nije moguće otvoriti kameru.")
         exit()
